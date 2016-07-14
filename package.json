@@ -1,0 +1,19 @@
+{
+  "name": "timeline-line-preview",
+  "version": "1.0.0",
+  "description": "A simple timeline preview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/webpack/bin/webpack.js"
+  },
+  "author": "Yassine elouazzani <yassine@elouazzani.nl>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  }
+}
